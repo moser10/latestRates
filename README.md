@@ -27,7 +27,7 @@ Forks may set `QUOTA_DISABLED=true` or change `GITHUB_STAR_REPO`.
 
 1. Create OAuth App → callback `http://localhost:8787/api/github/callback`
 2. `wrangler secret put GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`
-3. Set `GITHUB_STAR_REPO = "your-user/latestRates"`
+3. Set `GITHUB_STAR_REPO = "moser10/latestRates"`
 
 ## License
 

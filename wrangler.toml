@@ -15,7 +15,7 @@ database_id = "REPLACE_WITH_YOUR_D1_ID"
 
 [vars]
 QUOTA_DISABLED = "true"
-GITHUB_STAR_REPO = "moser/latestRates"
+GITHUB_STAR_REPO = "moser10/latestRates"
 
 # Secrets: wrangler secret put GITHUB_CLIENT_ID
 #           wrangler secret put GITHUB_CLIENT_SECRET
