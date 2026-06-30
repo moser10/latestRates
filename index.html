@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="feature-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>latestRates</title>
+  <link rel="stylesheet" href="/js/langTabs.css">
+  <link rel="stylesheet" href="/js/featurePage.css">
+  <link rel="stylesheet" href="fx.css">
+</head>
+<body class="feature-page">
+  <div class="feature-shell">
+    <div class="feature-top">
+      <span></span>
+      <div id="langSlot"></div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-card-head"><h1 id="pageTitle"></h1><p class="sub" id="pageSub"></p></div>
+      
+      <div class="pdf-quota" id="quotaBox"></div>
+      <div class="unlock-panel" id="starPanel" hidden>
+        <p class="unlock-title" id="starTitle"></p>
+        <p class="unlock-desc" id="starDesc"></p>
+        <a class="btn-primary btn-link" id="starBtn" href="/api/github/login">GitHub</a>
+      </div>
+      <div class="base-row"><label id="baseLabel" for="baseSelect"></label><select id="baseSelect"></select></div>
+      <p class="updated" id="updatedAt">—</p>
+      <div class="feature-scroll-panel"><ul class="rate-list" id="rateList"></ul></div>
+      <p class="err" id="errBox" hidden></p>
+    </div></div>
+  <script type="module" src="fx.js"></script>
+</body></html>

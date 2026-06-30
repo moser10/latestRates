@@ -1,0 +1,12 @@
+{
+  "name": "latestrates",
+  "private": false,
+  "description": "ECB reference FX rates (Frankfurter API).",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create latestRates-db"
+  },
+  "license": "MIT"
+}
